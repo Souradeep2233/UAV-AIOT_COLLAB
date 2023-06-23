@@ -20,7 +20,7 @@ This repository contains code for an environmental monitoring system that collec
 
 ## Installation and Setup
 
-1. Clone the repository: `git clone https://github.com/UdaySMukherjee/UAV-AIOT_COLLAB.git`
+1. Clone the repository: `git clone https://github.com/Souradeep2233/UAV-AIOT_COLLAB.git`
 2. Set up the necessary libraries and dependencies by following the instructions provided by the sensor manufacturers.
 3. Modify the `secrets.h` file to include your Wi-Fi credentials and ThingSpeak API key.
 4. Upload the code to your ESP32 microcontroller using the Arduino IDE or platform of your choice.
