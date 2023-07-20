@@ -1,0 +1,23 @@
+Greetings from the AIOT team of UAV:
+After months of hard work in data collection, data processing, ML & filter algorithm
+fitting we are glad to share our glory over the success in model performance and accuracy.
+Report states:
+● For Classification over weather conditions:
+1. SVC [Accuracy: 82.28 %, F1 Score = .8195 ]
+2. XGBOOST [Accuracy: 90 %, F1 Score = .8667]
+3. Naive Bayes[Accuracy: 91.25 %, F1 Score = .9117]
+4. Random Forest [Accuracy: 93.67 %, F1 Score = .9369]
+5. Softmax [Accuracy: 96.20 %, F1 Score = .9618]
+● For Regression of Temperature, Humidity, and Precipitation Probability prediction:
+1. For Maximum temperature : [ R2 score = .9572, using Linear Regression]
+2. For minimum temperature : [ R2 score = .9810, using 2nd order Polynomial
+Regression]
+3. For Humidity :[ R2 score = 1.0, using Regression over any degree]
+4. For precipitation chance(continuous) :[[R2 score = .9998, using 2nd order
+Polynomial Regression]
+● The Kalman filter has been successfully deployed and working fine.
+With this, we are only left with the final stage of deployment via edge computing (Raspberry
+Pi) and cloud computing combined ( Cloud).
+The research paper is on the verge of total completion, with just the finishing touches of graph
+and model evaluation, and explanation entry.
+GitHub link: https://github.com/Souradeep2233/UAV-AIOT_COLLAB
