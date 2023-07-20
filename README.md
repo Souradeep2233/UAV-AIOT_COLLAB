@@ -3,7 +3,7 @@
 Our research team has created this brilliant repository, over their research on UAVs ( Unmanned Aerial Vehicles) and their application in agricultural science, Load transport, weather prediction, and pollution index  from various sensors and edge computations to cloud architecture for visualization and further analysis with machine learning. Together we have made a complete system basic but compatible with UAV surveillance and exploration  in weather science and forecasting.
 ## Glimpses
 
-![9931112 fig 007](https://github.com/Souradeep2233/UAV-AIOT_COLLAB/assets/94059815/39795825-9793-4aa6-bd09-edef0153b666)
+![9931112 fig 007](https://github.com/Souradeep2233/UAV-AIOT_COLLAB/assets/94059815/940d7f80-a9a1-4c6a-bdb4-8546de226b9f)
 
 ## Sensors Used
 
