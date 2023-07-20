@@ -10,7 +10,7 @@ Our research team has created this brilliant repository, over their research on 
 - DHT11: Measures temperature and humidity
 - BMP180: Measures atmospheric pressure
 - MQ7: Measures carbon monoxide (CO) concentration
-- MQ135: Measures air quality and detects multiple gases
+- MQ135: Measures NH3 and SOx concentration
 
 ## Hardware Requirements
 
