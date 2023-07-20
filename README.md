@@ -3,7 +3,7 @@
 This repository contains code for an environmental monitoring system that collects data from various sensors and uploads it to ThingSpeak for visualization and analysis. The system uses an ESP32 microcontroller to read sensor data and establish a Wi-Fi connection for data transmission.
 ## Glimpses
 
-![image]([[https://user-images.githubusercontent.com/94059815/218089410-a8434a15-43a3-4fb8-b9f7-872e560503d0.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hindawi.com%2Fjournals%2Fmpe%2F2021%2F9931112%2F&psig=AOvVaw26VIITWqJVuLjj3sM9aORS&ust=1689965833597000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiysbv7nYADFQAAAAAdAAAAABAJ)](https://github.com/Souradeep2233/UAV-AIOT_COLLAB/blob/master/9931112.fig.007.jpg))
+![image]([[[https://user-images.githubusercontent.com/94059815/218089410-a8434a15-43a3-4fb8-b9f7-872e560503d0.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hindawi.com%2Fjournals%2Fmpe%2F2021%2F9931112%2F&psig=AOvVaw26VIITWqJVuLjj3sM9aORS&ust=1689965833597000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiysbv7nYADFQAAAAAdAAAAABAJ)](https://github.com/Souradeep2233/UAV-AIOT_COLLAB/blob/master/9931112.fig.007.jpg)](https://github.com/Souradeep2233/UAV-AIOT_COLLAB/blob/master/9931112.fig.007.jpg))
 
 ## Sensors Used
 
