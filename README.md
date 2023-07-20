@@ -1,6 +1,9 @@
 # UAV-AIOT_COLLAB
 
 This repository contains code for an environmental monitoring system that collects data from various sensors and uploads it to ThingSpeak for visualization and analysis. The system uses an ESP32 microcontroller to read sensor data and establish a Wi-Fi connection for data transmission.
+## Glimpses
+
+![9931112 fig 007](https://github.com/Souradeep2233/UAV-AIOT_COLLAB/assets/94059815/39795825-9793-4aa6-bd09-edef0153b666)
 
 ## Sensors Used
 
@@ -20,7 +23,7 @@ This repository contains code for an environmental monitoring system that collec
 
 ## Installation and Setup
 
-1. Clone the repository: `git clone https://github.com/UdaySMukherjee/UAV-AIOT_COLLAB.git`
+1. Clone the repository: `git clone https://github.com/Souradeep2233/UAV-AIOT_COLLAB.git`
 2. Set up the necessary libraries and dependencies by following the instructions provided by the sensor manufacturers.
 3. Modify the `secrets.h` file to include your Wi-Fi credentials and ThingSpeak API key.
 4. Upload the code to your ESP32 microcontroller using the Arduino IDE or platform of your choice.
@@ -33,6 +36,40 @@ This repository contains code for an environmental monitoring system that collec
 2. Once connected, the sensors will start collecting data at regular intervals.
 3. The data will be uploaded to the specified ThingSpeak channel for visualization and analysis.
 4. You can access the ThingSpeak channel to view the collected data and perform further analysis.
+
+
+## Machine Learning Technologies Implemented 
+
+Classical Machine Learning algorithms have been used to predict weather components and the Pollution index.
+
+However, to be noted Deep Learning technologies were also used to predict and classify the same :-> resulting in the depreciation of validation scores in this particular dataset collected.
+
+
+Algorithms used:
+
+For Classification over weather conditions(Cloudy, rainy & sunny): 
+
+    1. SVC [Accuracy: 82.28 %, F1 Score = .8195 ] 
+    2. XGBOOST [Accuracy: 90 %, F1 Score = .8667] 
+    3. Naive Bayes[Accuracy: 91.25 %, F1 Score = .9117] 
+    4. Random Forest [Accuracy: 93.67 %, F1 Score = .9369] 
+    5. Softmax [Accuracy: 96.20 %, F1 Score = .9618]
+Bootstrap sampling was used, from which the highest accuracy was observed via the Softmax algorithm.
+
+To be noted: ANN implementation with Softmax activation only yielded 75% accuracy in Deep Learning.
+
+For Regression over (Temperature, Humidity, and Precipitation):
+    
+    1. For Maximum temperature : [ R2 score = .9572, Lr] 
+    2. For minimum temperature : [ R2 score = .9810, Pr] 
+    3. For Humidity :[ R2 score = 1.0,Pr] 
+    4. For precipitation chance :[R2 score = .9998,Pr]
+
+Note :
+
+'Lr' implies linear regression. & 'Pr' implies polynomial regression.
+
+With validation experiments still being tested and optimized, live on UAV, models with their weights and biases are more or less kept the same throughout the flight experiments. Further modifications are to be tracked and updated.
 
 ## Contributing
 
