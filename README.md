@@ -1,6 +1,6 @@
 # UAV-AIOT_COLLAB
 
-This repository contains code for an environmental monitoring system that collects data from various sensors and uploads it to ThingSpeak for visualization and analysis. The system uses an ESP32 microcontroller to read sensor data and establish a Wi-Fi connection for data transmission. Cloud computing and Machine learning are used for further study, analysis, and prediction of weather components and pollution index. Together we have made a complete system basic but compatible with UAV surveillance and exploration  in weather science and forecasting.
+Our research team has created this brilliant repository, over their research on UAVs and their application in agricultural science, Load transport, weather prediction, and pollution index  from various sensors and edge computations to cloud architecture for visualization and further analysis with machine learning. The system uses an ESP32 microcontroller to read sensor data and establish a Wi-Fi connection for data transmission. Cloud computing and Machine learning are used for further study, analysis, and prediction of weather components and pollution index. Together we have made a complete system basic but compatible with UAV surveillance and exploration  in weather science and forecasting.
 ## Glimpses
 
 ![9931112 fig 007](https://github.com/Souradeep2233/UAV-AIOT_COLLAB/assets/94059815/39795825-9793-4aa6-bd09-edef0153b666)
