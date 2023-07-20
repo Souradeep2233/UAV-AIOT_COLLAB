@@ -71,7 +71,7 @@ Note :
 
 With validation experiments still being tested and optimized, live on UAV, models with their weights and biases are more or less kept the same throughout the flight experiments. Further modifications are to be tracked and updated.
 
-## Contributing
+## Contributions
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
