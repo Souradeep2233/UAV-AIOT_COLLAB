@@ -40,21 +40,17 @@ Our research team has created this brilliant repository, over their research on 
 ## Modified Kalman Filter Description for noise reduction in data collection and transmission
 The Kalman filter is a recursive mathematical algorithm used for estimating the state of a dynamic system in the presence of uncertain and noisy measurements. It was developed by Rudolf Kalman in the early 1960s and has since found numerous applications in various fields, including control systems, robotics, navigation, computer vision, and signal processing.
 
-At its core, the Kalman filter works by combining information from two sources: (1) a prediction of the system's state based on the previous state and system dynamics, and (2) measurements from sensors that provide information about the system's state with some uncertainty. By combining these sources of information intelligently, the Kalman filter provides a more accurate and robust estimate of the true system state than using either source alone.
+Algorithm :
 
-In the provided context, the Kalman filter is being applied to sensor data in the fields of agriculture, particularly with a focus on Unmanned Aerial Vehicles (UAVs) equipped with IoT (Internet of Things) sensors and Machine Learning.
+1. Initialization: The Kalman filter is initialized with the necessary parameters, including the state transition matrix (A), input matrix (B), measurement matrix (H), process noise covariance matrix (Q), measurement noise covariance matrix (R), initial state estimate (x0), and initial covariance matrix (P0). These parameters define the system dynamics and measurement characteristics, as well as the initial assumptions about the state and uncertainty.
 
-Here's how the Kalman filter is used in this context:
+2. Reading and Filtering Sensor Data: Once the Kalman filter is set up with the proper parameters, it is used to read and filter the sensor data in a loop. For each sensor data point acquired from the IoT sensors on the UAV, the Kalman filter performs the prediction and update steps.
 
-Initialization: The Kalman filter is initialized with the necessary parameters, including the state transition matrix (A), input matrix (B), measurement matrix (H), process noise covariance matrix (Q), measurement noise covariance matrix (R), initial state estimate (x0), and initial covariance matrix (P0). These parameters define the system dynamics and measurement characteristics, as well as the initial assumptions about the state and uncertainty.
+3. Predict Step: The predict() method is called to forecast the upcoming state estimate and covariance using the state transition matrix (A) and the process noise covariance matrix (Q). This step predicts the UAV's state based on its previous state, system dynamics, and any external inputs (if applicable).
 
-Reading and Filtering Sensor Data: Once the Kalman filter is set up with the proper parameters, it is used to read and filter the sensor data in a loop. For each sensor data point acquired from the IoT sensors on the UAV, the Kalman filter performs the prediction and update steps.
+4. Update Step: The update() method is called to update the state estimate and covariance using the measurement matrix (H), measurement noise covariance matrix (R), and the actual sensor measurement (y). The Kalman filter calculates the Kalman gain (K) to correct the predicted state estimate based on the sensor measurement.
 
-Predict Step: The predict() method is called to forecast the upcoming state estimate and covariance using the state transition matrix (A) and the process noise covariance matrix (Q). This step predicts the UAV's state based on its previous state, system dynamics, and any external inputs (if applicable).
-
-Update Step: The update() method is called to update the state estimate and covariance using the measurement matrix (H), measurement noise covariance matrix (R), and the actual sensor measurement (y). The Kalman filter calculates the Kalman gain (K) to correct the predicted state estimate based on the sensor measurement.
-
-Repeat: The process of reading the sensor data, predicting the state estimate, updating the state estimate with measurements, and repeating this loop for all sensor data points allows the Kalman filter to iteratively refine its estimates of the UAV's true state.
+5. Repeat: The process of reading the sensor data, predicting the state estimate, updating the state estimate with measurements, and repeating this loop for all sensor data points allows the Kalman filter to iteratively refine its estimates of the UAV's true state.
 
 ## Machine Learning Technologies Implemented 
 
